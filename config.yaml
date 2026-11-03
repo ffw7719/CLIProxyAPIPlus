@@ -12,7 +12,7 @@ tls:
   key: ""
 
 # Management API settings
-management:
+remote-management:
   # Whether to allow remote (non-localhost) management access.
   # When false, only localhost can access management endpoints (a key is still required).
   allow-remote: true
