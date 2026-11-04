@@ -33,6 +33,7 @@ jobs:
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           tags: |
+            type=raw,value=v8.0.53
             type=raw,value=2026
             type=raw,value=latest
 
